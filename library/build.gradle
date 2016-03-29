@@ -1,32 +1,18 @@
-/*
- * Copyright (c) 2015 [1076559197@qq.com | tchen0707@gmail.com]
- *
- * Licensed under the Apache License, Version 2.0 (the "License”);
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
-// 这个version是区分library版本的，因此当我们需要更新library时记得修改这个version
-version = "1.0.0"
+
+version = "0.0.3"                                                              // #CONFIG# // project version
+
 android {
-    compileSdkVersion 21
-    buildToolsVersion "21.1.1"
-    resourcePrefix "随便填"
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+    // resourcePrefix "less_"                                                  // #CONFIG# // please remove this if you don't known it
     defaultConfig {
-        minSdkVersion 9
-        targetSdkVersion 21
+        minSdkVersion 8
+        targetSdkVersion 23
         versionCode 1
-        versionName version
+        versionName "1.0"
     }
     buildTypes {
         release {
@@ -35,20 +21,25 @@ android {
         }
     }
 }
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:support-v4:23.2.0'
+    compile 'com.android.support:recyclerview-v7:23.2.0'
 }
-def siteUrl = 'https://github.com/saymagic/AndroidUtils'      // 项目的主页
-def gitUrl = 'https://github.com/saymagic/AndroidUtils.git'   // Git仓库的url
-group = "library" // Maven Group ID for the artifact，一般填你唯一的包名
+
+def siteUrl = 'https://github.com/zhuxiaohao/Utillibrary'                        // #CONFIG# // project homepage
+def gitUrl = 'https://github.com/zhuxiaohao/Utillibrary.git'                     // #CONFIG# // project git
+group = "library"                                                          // #CONFIG# // Maven Group ID for the artifact (pageckage name is ok)
+
 install {
     repositories.mavenInstaller {
         // This generates POM.xml with proper parameters
         pom {
             project {
                 packaging 'aar'
-                // Add your description here
-                name 'Android Commonly used utils'  //项目描述
+                name 'Less Code For Android'
+                // #CONFIG# // project title
                 url siteUrl
                 // Set your license
                 licenses {
@@ -59,9 +50,12 @@ install {
                 }
                 developers {
                     developer {
-                        id 'zhuxiaohao'       //填写开发者基本信息
-                        name 'zhuxiaohao'
+                        id 'zhuxiaohao  '
+                        // #CONFIG# // your user id (you can write your nickname)
+                        name 'chenhao'
+                        // #CONFIG# // your user name
                         email '718799510@qq.com'
+                        // #CONFIG# // your email
                     }
                 }
                 scm {
@@ -73,37 +67,44 @@ install {
         }
     }
 }
+
 task sourcesJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
     classifier = 'sources'
 }
+
 task javadoc(type: Javadoc) {
     source = android.sourceSets.main.java.srcDirs
     classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
 }
+
 task javadocJar(type: Jar, dependsOn: javadoc) {
     classifier = 'javadoc'
     from javadoc.destinationDir
 }
+
 artifacts {
     archives javadocJar
     archives sourcesJar
 }
+
 Properties properties = new Properties()
 properties.load(project.rootProject.file('local.properties').newDataInputStream())
 bintray {
-    user = properties.getProperty("zhuxiaohao")
-    key = properties.getProperty("f50a8624af2ccb78c1edde7a0579751ce0be45c1")
+    user = properties.getProperty("bintray.user")
+    key = properties.getProperty("bintray.apikey")
     configurations = ['archives']
     pkg {
-        repo = "maven"  //发布到Bintray的那个仓库里，默认账户有四个库，我们这里上传到maven库
-        name = "libraryUtils"  //发布到Bintray上的项目名字
+        repo = "maven"
+        name = "utillibrary"
+        // #CONFIG# project name in jcenter
         websiteUrl = siteUrl
         vcsUrl = gitUrl
         licenses = ["Apache-2.0"]
         publish = true
     }
 }
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.2.0'
@@ -120,3 +121,4 @@ dependencies {
     compile 'com.squareup.okhttp:okhttp:2.4.0'
     compile 'com.mcxiaoke.volley:library:1.0.18'
 }
+

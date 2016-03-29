@@ -2,137 +2,130 @@
 <items version="2" >
 
     <item
-        jar="/Users/chenhao/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/5.1.1/b3652dfd65ca0bcf18790ff1a1f7624af4cb2bb8/butterknife-5.1.1.jar"
+        jar="/Users/chenhao/MavenCode/library/build/intermediates/exploded-aar/com.github.chrisbanes.photoview/library/1.2.3/jars/classes.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="b3652dfd65ca0bcf18790ff1a1f7624af4cb2bb8">
-        <dex dex="/Users/chenhao/MavenCode/app/build/intermediates/pre-dexed/debug/butterknife-5.1.1-4cc31fdfdb9e420e0377fa58473f5d86ff3709f3.jar" />
-    </item>
-    <item
-        jar="/Users/chenhao/MavenCode/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="/Users/chenhao/MavenCode/app/build/intermediates/pre-dexed/debug/classes-98583fa63fc688ec8e9ceb044e143c6a7e5dc537.jar" />
-    </item>
-    <item
-        jar="/Users/chenhao/MavenCode/app/libs/zxing.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="e88c14e6e7daa0fa65172a62b54ee6a16ff4162d">
-        <dex dex="/Users/chenhao/MavenCode/app/build/intermediates/pre-dexed/debug/zxing-b7706ca86987ab64ff32089b0d7ce3f619ceeef6.jar" />
-    </item>
-    <item
-        jar="/Users/chenhao/MavenCode/app/build/intermediates/exploded-aar/me.gujun.android.taggroup/library/1.4/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f91fda9bdd268cd21a0ef9d8f40154ded0bd4c53">
-        <dex dex="/Users/chenhao/MavenCode/app/build/intermediates/pre-dexed/debug/classes-0d1e5390e7ac0e45d47c0e35ecc259f33befe514.jar" />
-    </item>
-    <item
-        jar="/Users/chenhao/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/Users/chenhao/MavenCode/app/build/intermediates/pre-dexed/debug/library-2.4.0-b3c428db04f89baa5f7aeae97c88539e1e926812.jar" />
-    </item>
-    <item
-        jar="/Users/chenhao/MavenCode/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="/Users/chenhao/MavenCode/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-df31fc25f6d0045db470a6acb564320e12fd4e38.jar" />
-    </item>
-    <item
-        jar="/Users/chenhao/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.4.0/5b72bf48563ea8410e650de14aa33ff69a3e8c35/okio-1.4.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
-        <dex dex="/Users/chenhao/MavenCode/app/build/intermediates/pre-dexed/debug/okio-1.4.0-756d56a2e37a425b60818bb42dc0063748e32ebb.jar" />
-    </item>
-    <item
-        jar="/Users/chenhao/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/Users/chenhao/MavenCode/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-5b62f44904b4d7299073dcd387b68edabd9a8d81.jar" />
+        revision="21.1.1"
+        sha1="81aa0e8e77d948204aa6754019c6f3c04dd922e3">
+        <dex dex="/Users/chenhao/MavenCode/library/build/intermediates/pre-dexed/androidTest/debug/com.github.chrisbanes.photoview-library-1.2.3_566a9a977c67f822c4fa868e150bd2dfd868b181.jar" />
     </item>
     <item
         jar="/Users/chenhao/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
         jumboMode="false"
-        revision="22.0.1"
+        revision="21.1.1"
         sha1="a60a5e993c98c864010053cb901b7eab25306568">
-        <dex dex="/Users/chenhao/MavenCode/app/build/intermediates/pre-dexed/debug/gson-2.2.4-394cc7d5afd0ab1cd0ed33a6c616f5ae2906e769.jar" />
+        <dex dex="/Users/chenhao/MavenCode/library/build/intermediates/pre-dexed/androidTest/debug/gson-2.2.4_394cc7d5afd0ab1cd0ed33a6c616f5ae2906e769.jar" />
     </item>
     <item
-        jar="/Users/chenhao/MavenCode/app/build/intermediates/exploded-aar/com.github.chrisbanes.photoview/library/1.2.3/jars/classes.jar"
+        jar="/Users/chenhao/MavenCode/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="81aa0e8e77d948204aa6754019c6f3c04dd922e3">
-        <dex dex="/Users/chenhao/MavenCode/app/build/intermediates/pre-dexed/debug/classes-9ed00a57075e17618e59bc45cf627e60ae99faad.jar" />
-    </item>
-    <item
-        jar="/Users/chenhao/MavenCode/app/build/intermediates/exploded-aar/MavenCode/library/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="e1295b39eb9b80f95aba899aea2b0446d4cdd6ca">
-        <dex dex="/Users/chenhao/MavenCode/app/build/intermediates/pre-dexed/debug/classes-3ccc3211db4eaf39af1d921b0af5072f48a4ace9.jar" />
-    </item>
-    <item
-        jar="/Users/chenhao/.gradle/caches/modules-2/files-2.1/com.readystatesoftware.systembartint/systembartint/1.0.3/de4f7404e2f58d8f6e83cb1e85d0c2d6c2987287/systembartint-1.0.3.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="de4f7404e2f58d8f6e83cb1e85d0c2d6c2987287">
-        <dex dex="/Users/chenhao/MavenCode/app/build/intermediates/pre-dexed/debug/systembartint-1.0.3-ffa98c4c6224c6f87f4012d8b33720a198dd0c1b.jar" />
-    </item>
-    <item
-        jar="/Users/chenhao/MavenCode/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/Users/chenhao/MavenCode/app/build/intermediates/pre-dexed/debug/classes-01487af2ab8a6b76c5c5598d0c2dad74cbaba28e.jar" />
-    </item>
-    <item
-        jar="/Users/chenhao/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
-        <dex dex="/Users/chenhao/MavenCode/app/build/intermediates/pre-dexed/debug/eventbus-2.4.0-577edc6a7517a2a55c369df208d8756edb41b1f1.jar" />
-    </item>
-    <item
-        jar="/Users/chenhao/MavenCode/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
-        <dex dex="/Users/chenhao/MavenCode/app/build/intermediates/pre-dexed/debug/classes-b31853a28b435f324c066a80a90a50dc8e0869f5.jar" />
-    </item>
-    <item
-        jar="/Users/chenhao/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.3/a85588bec3e2c4584d593d3f15df1677321bca72/universal-image-loader-1.9.3.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
-        <dex dex="/Users/chenhao/MavenCode/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.3-742005666c3a47efd87c907928952cc2f1b0a08b.jar" />
+        revision="21.1.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/chenhao/MavenCode/library/build/intermediates/pre-dexed/androidTest/debug/com.android.support-appcompat-v7-22.2.0_146b328d1c9838367cc6d4c23adad9cd3df23b0e.jar" />
     </item>
     <item
         jar="/Users/chenhao/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.18/38da306aafee11459cd935a01d2c92a98dc670a4/library-1.0.18.jar"
         jumboMode="false"
-        revision="22.0.1"
+        revision="21.1.1"
         sha1="38da306aafee11459cd935a01d2c92a98dc670a4">
-        <dex dex="/Users/chenhao/MavenCode/app/build/intermediates/pre-dexed/debug/library-1.0.18-285a37d663b73ca2f8e4bee265e1d583052653bd.jar" />
-    </item>
-    <item
-        jar="/Users/chenhao/MavenCode/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="97f7e239e86ef994de894818fdd8a71d2e89d6aa">
-        <dex dex="/Users/chenhao/MavenCode/app/build/intermediates/pre-dexed/debug/classes-2989527c444f547a6d6989d037ca98baf8e07fb8.jar" />
+        <dex dex="/Users/chenhao/MavenCode/library/build/intermediates/pre-dexed/androidTest/debug/library-1.0.18_285a37d663b73ca2f8e4bee265e1d583052653bd.jar" />
     </item>
     <item
         jar="/Users/chenhao/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.4.0/40340c0748190fe897baf7bffbc1b282734294e5/okhttp-2.4.0.jar"
         jumboMode="false"
-        revision="22.0.1"
+        revision="21.1.1"
         sha1="40340c0748190fe897baf7bffbc1b282734294e5">
-        <dex dex="/Users/chenhao/MavenCode/app/build/intermediates/pre-dexed/debug/okhttp-2.4.0-6a7392c253795c478c6c30729fd72eb1623db0ae.jar" />
+        <dex dex="/Users/chenhao/MavenCode/library/build/intermediates/pre-dexed/androidTest/debug/okhttp-2.4.0_6a7392c253795c478c6c30729fd72eb1623db0ae.jar" />
+    </item>
+    <item
+        jar="/Users/chenhao/MavenCode/library/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="97f7e239e86ef994de894818fdd8a71d2e89d6aa">
+        <dex dex="/Users/chenhao/MavenCode/library/build/intermediates/pre-dexed/androidTest/debug/com.android.support-cardview-v7-22.2.0_76ce9e79b5a19199b9cf344e0094a91b834acc07.jar" />
+    </item>
+    <item
+        jar="/Users/chenhao/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/chenhao/MavenCode/library/build/intermediates/pre-dexed/androidTest/debug/library-2.4.0_b3c428db04f89baa5f7aeae97c88539e1e926812.jar" />
+    </item>
+    <item
+        jar="/Users/chenhao/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.4.0/5b72bf48563ea8410e650de14aa33ff69a3e8c35/okio-1.4.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
+        <dex dex="/Users/chenhao/MavenCode/library/build/intermediates/pre-dexed/androidTest/debug/okio-1.4.0_756d56a2e37a425b60818bb42dc0063748e32ebb.jar" />
+    </item>
+    <item
+        jar="/Users/chenhao/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.3/a85588bec3e2c4584d593d3f15df1677321bca72/universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="/Users/chenhao/MavenCode/library/build/intermediates/pre-dexed/androidTest/debug/universal-image-loader-1.9.3_742005666c3a47efd87c907928952cc2f1b0a08b.jar" />
+    </item>
+    <item
+        jar="/Users/chenhao/MavenCode/library/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/chenhao/MavenCode/library/build/intermediates/pre-dexed/androidTest/debug/com.android.support-support-v4-22.2.0_c65b5739d65a264b441458d5ef00bd7676ae3f06.jar" />
+    </item>
+    <item
+        jar="/Users/chenhao/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/5.1.1/b3652dfd65ca0bcf18790ff1a1f7624af4cb2bb8/butterknife-5.1.1.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="b3652dfd65ca0bcf18790ff1a1f7624af4cb2bb8">
+        <dex dex="/Users/chenhao/MavenCode/library/build/intermediates/pre-dexed/androidTest/debug/butterknife-5.1.1_4cc31fdfdb9e420e0377fa58473f5d86ff3709f3.jar" />
+    </item>
+    <item
+        jar="/Users/chenhao/MavenCode/library/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/chenhao/MavenCode/library/build/intermediates/pre-dexed/androidTest/debug/internal_impl-22.2.0_a0898b1dbd35c98ac27d33b6be4e7fdcc4d800fc.jar" />
+    </item>
+    <item
+        jar="/Users/chenhao/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="/Users/chenhao/MavenCode/library/build/intermediates/pre-dexed/androidTest/debug/eventbus-2.4.0_577edc6a7517a2a55c369df208d8756edb41b1f1.jar" />
+    </item>
+    <item
+        jar="/Users/chenhao/MavenCode/library/build/intermediates/bundles/debug/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1c7d449d950f01134ac75c340f1b7d33bb9ea7bb">
+        <dex dex="/Users/chenhao/MavenCode/library/build/intermediates/pre-dexed/androidTest/debug/classes_369f00c55c7939d22671aa2832bf831bb571e8db.jar" />
+    </item>
+    <item
+        jar="/Users/chenhao/MavenCode/library/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/Users/chenhao/MavenCode/library/build/intermediates/pre-dexed/androidTest/debug/com.android.support-design-22.2.0_6c8b48e18909ca50fb4c9be7d8242f2e1d73acd9.jar" />
+    </item>
+    <item
+        jar="/Users/chenhao/.gradle/caches/modules-2/files-2.1/com.readystatesoftware.systembartint/systembartint/1.0.3/de4f7404e2f58d8f6e83cb1e85d0c2d6c2987287/systembartint-1.0.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="de4f7404e2f58d8f6e83cb1e85d0c2d6c2987287">
+        <dex dex="/Users/chenhao/MavenCode/library/build/intermediates/pre-dexed/androidTest/debug/systembartint-1.0.3_ffa98c4c6224c6f87f4012d8b33720a198dd0c1b.jar" />
+    </item>
+    <item
+        jar="/Users/chenhao/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/chenhao/MavenCode/library/build/intermediates/pre-dexed/androidTest/debug/support-annotations-22.2.0_5b62f44904b4d7299073dcd387b68edabd9a8d81.jar" />
+    </item>
+    <item
+        jar="/Users/chenhao/MavenCode/library/build/intermediates/exploded-aar/me.gujun.android.taggroup/library/1.4/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="f91fda9bdd268cd21a0ef9d8f40154ded0bd4c53">
+        <dex dex="/Users/chenhao/MavenCode/library/build/intermediates/pre-dexed/androidTest/debug/me.gujun.android.taggroup-library-1.4_207edd7dc6da74ec6b5b45877404e6fcc90f92b6.jar" />
     </item>
 
 </items>
