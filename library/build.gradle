@@ -40,7 +40,7 @@ dependencies {
 }
 def siteUrl = 'https://github.com/saymagic/AndroidUtils'      // 项目的主页
 def gitUrl = 'https://github.com/saymagic/AndroidUtils.git'   // Git仓库的url
-group = "cn.saymagic" // Maven Group ID for the artifact，一般填你唯一的包名
+group = "library" // Maven Group ID for the artifact，一般填你唯一的包名
 install {
     repositories.mavenInstaller {
         // This generates POM.xml with proper parameters
@@ -59,9 +59,9 @@ install {
                 }
                 developers {
                     developer {
-                        id 'saymagic'       //填写开发者基本信息
-                        name 'saymagic'
-                        email 'cymmagic@gmail.com'
+                        id 'zhuxiaohao'       //填写开发者基本信息
+                        name 'zhuxiaohao'
+                        email '718799510@qq.com'
                     }
                 }
                 scm {
@@ -92,12 +92,12 @@ artifacts {
 Properties properties = new Properties()
 properties.load(project.rootProject.file('local.properties').newDataInputStream())
 bintray {
-    user = properties.getProperty("bintray.user")
-    key = properties.getProperty("bintray.apikey")
+    user = properties.getProperty("zhuxiaohao")
+    key = properties.getProperty("f50a8624af2ccb78c1edde7a0579751ce0be45c1")
     configurations = ['archives']
     pkg {
         repo = "maven"  //发布到Bintray的那个仓库里，默认账户有四个库，我们这里上传到maven库
-        name = "utils"  //发布到Bintray上的项目名字
+        name = "libraryUtils"  //发布到Bintray上的项目名字
         websiteUrl = siteUrl
         vcsUrl = gitUrl
         licenses = ["Apache-2.0"]
