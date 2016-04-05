@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MavenCode.iml" filepath="$PROJECT_DIR$/MavenCode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-library/common-library.iml" filepath="$PROJECT_DIR$/common-library/common-library.iml" />
     </modules>
   </component>
 </project>
